@@ -99,7 +99,7 @@ jobs:
       - name: Setup Theos Jailed
         uses: actions/checkout@v4.1.1
         with:
-          repository: qnblackcat/theos-jailed
+          repository: enokseth/theos-jailed
           ref: master
           path: theos-jailed
           submodules: recursive
